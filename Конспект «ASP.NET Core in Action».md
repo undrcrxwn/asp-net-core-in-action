@@ -1,5 +1,6 @@
 # Конспект «ASP.NET Core in Action»
 Теги: #edu/summary #dev 
+
 <br>
 
 # Ссылки
@@ -8,12 +9,12 @@
 <br>
 
 # Содержание
-- [[#Структура ASP NET Core приложения]]
-  - [[#Program cs]]
-  - [[#Startup cs]]
-- [[#Razor Pages]]
-- [[#Middleware]]
-- [[#Обработка исключений]]
+- [Структура ASP NET Core приложения](#структура-aspnet-core-приложения)
+  - [Program cs](#programcs)
+  - [Startup cs](#startupcs)
+- [Razor Pages](#razor-pages)
+- [Middleware](#middleware)
+- [Обработка исключений](#обработка-исключений)
 <br>
 
 # Структура ASP.NET Core приложения
@@ -56,7 +57,6 @@ Middleware are C# classes that can handle an HTTP request or response via `HttpC
 - Handle an incoming HTTP request by generating an HTTP response
 - Process an incoming HTTP request, modify it, and pass it on to another piece of middleware
 - Process an outgoing HTTP response, modify it, and pass it on to either another piece of middleware or the ASP.NET Core web server
-<br>
 
 ### Обработка исключений
 
