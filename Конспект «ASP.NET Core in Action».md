@@ -30,7 +30,7 @@
 
 The `IHostBuilder` created in `Program` calls `ConfigureServices` and then `Configure`.
 
-![[Figure 2.10.png]]
+![](Материалы/Figure%202.10.png)
 <br>
 
 ### Startup.cs
@@ -43,7 +43,7 @@ The `IHostBuilder` created in `Program` calls `ConfigureServices` and then `Conf
 
 `Startup` doesn’t implement an interface as such. Instead, the methods are invoked by using reflection.
 
-![[Listing 2.6.png]]
+![](Материалы/Listing%202.6.png)
 <br>
 
 # Razor Pages
@@ -66,7 +66,7 @@ Middleware are C# classes that can handle an HTTP request or response via `HttpC
 
 Если не только executing, но и re-executing выбросил исключение (например, во время обработки запроса `/Error`), обрабатывающий исключения middleware вернёт клиенту ответ со статус-кодом ошибки 500 без тела (что, соответственно, заставит браузер выдать пользователю свою дефолтную страницу ошибки). Рекурсии не произойдёт.
 
-![[Figure 3.18.png]]
+![](Материалы/Figure%203.18.png)
 
 Ошибка 404 генерируется низшим middleware — неявной заглушкой, которая заложена в конвеер по дефолту и при получении запроса очищает его тело и устанавливает статус-код в 404.
 
